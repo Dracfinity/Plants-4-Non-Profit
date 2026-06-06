@@ -30,7 +30,7 @@ function Search_catalogue() {
             box.innerHTML = `
             <h2>${catalogue[i][0]}</h2>
             <img src="${catalogue[i][1]}">
-            <p>Price:$${catalogue[i][2]}</p>
+            <p>Price: $${catalogue[i][2]}</p>
             <p>${catalogue[i][3]}</p>
             `
             document.querySelector("#catalogue").appendChild(box)
